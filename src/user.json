@@ -1,0 +1,51 @@
+{
+  "firstName": "Oleksandra",
+  "lastName": "Yanovska",
+  "city": "Zhytomyr",
+  "hobbies": [
+    "Development",
+    "Reading",
+    "Traveling",
+    "Yoga",
+    "Studing",
+    "Concerts and festivals"
+  ],
+  "educations": {
+    "university": "Zhytomyr Ivan Franko State University",
+    "speciality": "Chemistry and biology"
+  },
+  "workingExpirience": [
+    {
+      "company": "Viseven",
+      "duration": "1.3 year",
+      "position": "AEM Developer"
+    },
+    {
+      "company": "WebzzPro",
+      "duration": "5 months",
+      "position": "WordPress Developer"
+    },
+    {
+      "company": "Secondary school #8",
+      "duration": "11 years",
+      "position": "Teacher of chemistry and biology"
+    }
+  ],
+
+  "skills": [
+    "Photoshop",
+    "Figma",
+    "InDesign",
+    "HTML",
+    "CSS",
+    "SCSS",
+    "JavaScript",
+    "WordPress",
+    "AEM",
+    "Jira",
+    "Confluence",
+    "Scrum",
+    "SEO"
+  ],
+  "languages": ["Ukrainian", "English (pre-intermediate)"]
+}
