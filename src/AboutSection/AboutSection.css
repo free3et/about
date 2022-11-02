@@ -1,0 +1,81 @@
+.home_banner {
+    position: relative;
+    z-index: 1;
+    padding-top: 50px;
+}
+
+.home_banner .container {
+    position: relative;
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 30px;
+    border-radius: 12px;
+    background: #ffffff;
+    box-shadow: 0 20px 80px 0 rgb(153, 153, 153, 0.5);
+}
+
+.banner_inner {
+    position: relative;
+    display: flex;
+}
+
+.banner_inner .banner_content .media {
+    padding-right: 110px;
+}
+
+.banner_content .media {
+    display: flex;
+    padding-right: 125px;
+}
+
+.banner_content .media img {
+    width: 47%;
+    padding-right: 35px;
+    border-radius: 12px;
+    object-fit: cover;
+}
+
+.banner_content .media .media-body {
+    padding-left: 30px;
+}
+
+.personal_text h6 {
+    margin: 15px 0;
+    color: #333333;
+    text-transform: uppercase;
+    letter-spacing: 2.1px;
+    font-family: 'Roboto',sans-serif;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.personal_text h3 {
+    margin: 30px 0;
+    color: #333333;
+    text-transform: uppercase;
+    font-size: 36px;
+    line-height: 1.2;
+}
+
+.personal_text h4 {
+    margin-bottom: 25px;
+    color: #222222;
+    text-transform: uppercase;
+    font-family: 'Roboto',sans-serif;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.personal_text p {
+    max-width: 540px;
+    margin-bottom: 40px;
+    color: #777777;
+    font-family: 'Roboto',sans-serif;
+}
+
+.personal_text .basic_info li {
+    position: relative;
+    margin-bottom: 20px;
+    color: #777777;
+    font-size: 20px;
+}

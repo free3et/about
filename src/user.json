@@ -1,28 +1,35 @@
 {
   "firstName": "Oleksandra",
   "lastName": "Yanovska",
+  "age": 34,
   "city": "Zhytomyr",
+  "email": "free3et@gmail.com",
+  "skype": "free3et",
   "hobbies": [
     "Development",
-    "Reading",
+    "Spend time with family",
     "Traveling",
     "Yoga",
     "Studing",
+    "Music",
+    "Films",
+    "Reading",
     "Concerts and festivals"
   ],
   "educations": {
     "university": "Zhytomyr Ivan Franko State University",
     "speciality": "Chemistry and biology"
   },
+  "languages": ["Ukrainian", "English (pre-intermediate)"],
   "workingExpirience": [
     {
       "company": "Viseven",
-      "duration": "1.3 year",
+      "duration": "1.3 years",
       "position": "AEM Developer"
     },
     {
       "company": "WebzzPro",
-      "duration": "5 months",
+      "duration": "5 mnth",
       "position": "WordPress Developer"
     },
     {
@@ -36,16 +43,18 @@
     "Photoshop",
     "Figma",
     "InDesign",
+    "Avocode",
     "HTML",
     "CSS",
     "SCSS",
     "JavaScript",
     "WordPress",
+
     "AEM",
     "Jira",
     "Confluence",
     "Scrum",
+    "Kanban",
     "SEO"
-  ],
-  "languages": ["Ukrainian", "English (pre-intermediate)"]
+  ]
 }
