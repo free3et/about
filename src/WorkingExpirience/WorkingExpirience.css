@@ -1,73 +1,73 @@
 .working_expirience_area {
-    padding: 50px 0 70px;
+  padding: 50px 0 70px;
 }
 
 .tab-pane .list {
-    position: relative;
-    max-width: 230px;
-    margin: auto;
+  position: relative;
+  max-width: 230px;
+  margin: auto;
 }
 
 .tab-pane .list:before {
-    content: '';
-    position: absolute;
-    top: -5px;
-    left: 46%;
-    width: 5px;
-    height: 100%;
-    background: rgba(255,255,255,0.2);
-    transform: translateX(-50%);
+  content: "";
+  position: absolute;
+  top: -5px;
+  left: 46%;
+  width: 5px;
+  height: 100%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-50%);
 }
 
 .tab-pane .list li {
-    position: relative;
-    margin-bottom: 25px;
+  position: relative;
+  margin-bottom: 25px;
 }
 
 .tab-pane .list li span {
-    position: absolute;
-    top: 55px;
-    left: 46%;
-    display: block;
-    width: 20px;
-    height: 20px;
-    border-radius: 50%;
-    background: rgba(255,255,255,0.2);
-    transform: translateX(-50%);
+  position: absolute;
+  top: 55px;
+  left: 46%;
+  display: block;
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.2);
+  transform: translateX(-50%);
 }
 
 .tab-pane .list li span:before {
-    content: '';
-    position: absolute;
-    top: 7px;
-    left: 52%;
-    width: 7px;
-    height: 7px;
-    border-radius: 50%;
-    background: #ffffff;
-    transform: translateX(-50%);
+  content: "";
+  position: absolute;
+  top: 7px;
+  left: 52%;
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #ffffff;
+  transform: translateX(-50%);
 }
 
 .tab-pane .tab-media {
-    display: flex;
-    align-items: center;
+  display: flex;
+  align-items: center;
 }
 
 .tab-pane .list li .tab-media p {
-    margin-bottom: 0;
-    color: rgba(255,255,255,0.75);
-    font-weight: 700;
-    font-size: 21px;
+  margin-bottom: 0;
+  color: rgba(255, 255, 255, 0.75);
+  font-weight: 700;
+  font-size: 21px;
 }
 
 .tab-media-body {
-    flex: 1;
-    padding-left: 100px;
+  flex: 1;
+  padding-left: 100px;
 }
 
 .tab-pane .list li .tab-media .tab-media-body h4 {
-    margin-bottom: 20px;
-    color: #ffffff;
-    text-transform: uppercase;
-    font-size: 21px;
+  margin-bottom: 20px;
+  color: #ffffff;
+  text-transform: uppercase;
+  font-size: 21px;
 }

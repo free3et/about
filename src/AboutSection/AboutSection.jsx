@@ -1,26 +1,25 @@
 import React from "react";
-import user from "../user.json";
 import photo from "./me.jpg";
 import "./AboutSection.css";
 
-const AboutSection = () => {
-  const {
-    firstName,
-    lastName,
-    city,
-    age,
-    email,
-    skype,
-    educations: { university, speciality },
-    languages: [...language],
-  } = user;
+const AboutSection = ({
+  firstName,
+  lastName,
+  city,
+  age,
+  email,
+  skype,
+  university,
+  speciality,
+  languages,
+}) => {
   return (
     <section className="home_banner">
       <div className="container">
         <div className="banner_inner">
           <div className="banner_content">
             <div className="media">
-              <img src={photo} alt="" />
+              <img src={photo} alt="my_photo" />
 
               <div className="media-body">
                 <div className="personal_text">
@@ -44,13 +43,12 @@ const AboutSection = () => {
                     </li>
 
                     <li>
-                      <i class="fa-solid fa-building-columns"></i>Education:{" "}
-                      {university}
+                      <i class="fa-solid fa-building-columns"></i>Education: {university}
                     </li>
                     <li>
                       <i class="fa-solid fa-leaf"></i>Speciality: {speciality}
                     </li>
-                    {language.map((item) => (
+                    {languages.map((item) => (
                       <li key={item}>
                         <i class="fa-solid fa-language"></i>Language: {item}
                       </li>

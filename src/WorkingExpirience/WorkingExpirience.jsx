@@ -2,20 +2,7 @@ import React from "react";
 import "./WorkingExpirience.css";
 import user from "../user.json";
 
-const WorkingExpirience = () => {
-  const {
-    firstName,
-    lastName,
-    city,
-    age,
-    email,
-    skype,
-    hobbies: [...hobbie],
-    educations: { university, speciality },
-    workingExpirience: [...work],
-    skills: [...skill],
-    languages: [...language],
-  } = user;
+const WorkingExpirience = ({ work }) => {
   return (
     <>
       <section className="working_expirience_area">

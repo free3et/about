@@ -1,10 +1,6 @@
 import React from "react";
-import user from "../user.json";
 
-const SkillsSection = () => {
-  const {
-    skills: [...skill],
-  } = user;
+const SkillsSection = ({ skills }) => {
   return (
     <>
       <section className="white_fullwidth_area">
@@ -14,7 +10,7 @@ const SkillsSection = () => {
               <h4>Skills</h4>
 
               <ul className="three-column">
-                {skill.map((item) => (
+                {skills.map((item) => (
                   <li key={item}>
                     <i class="fa-solid fa-bolt"></i>
                     {item}

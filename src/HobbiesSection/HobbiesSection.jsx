@@ -1,11 +1,7 @@
 import React from "react";
-import user from "../user.json";
 import "./HobbiesSection.css";
 
-const HobbiesSection = () => {
-  const {
-    hobbies: [...hobbie],
-  } = user;
+const HobbiesSection = ({ hobbies }) => {
   return (
     <>
       <section className="white_fullwidth_area">
@@ -14,7 +10,7 @@ const HobbiesSection = () => {
             <div className="welcome_text">
               <h4>Hobbies</h4>
               <ul className="three-column">
-                {hobbie.map((item) => (
+                {hobbies.map((item) => (
                   <li key={item}>
                     <i class="fa-regular fa-star"></i>
                     {item}
